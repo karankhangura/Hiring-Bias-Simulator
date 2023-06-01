@@ -1,0 +1,13 @@
+#school {
+    padding-bottom: 0.5em;
+}
+#video {
+    padding-top: 5em;
+    background-image: url("candidate-placeholder.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#button {
+    padding: 2em;
+}

@@ -1,0 +1,22 @@
+.interviews hr{
+    border-color: white;
+    width: 100%;
+}
+
+
+.interviews .background-image2{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.interviews .video-list h2{
+    color: #f7f7f7;
+    font-weight: 600;
+}
+
+.interviews .video-list h5{
+    color: #f7f7f7;
+    font-size: 17px;
+}

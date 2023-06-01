@@ -1,0 +1,51 @@
+.App-home {
+    text-align: center;
+  }
+  
+  .Top-of-page-header-home {
+    box-sizing: border-box;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .App-header-home {
+    background-color: #282c34;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-weight: bold;
+    color: white;
+    line-height: 1.6;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  
+  }
+  
+  .App-link-home {
+    color: #61dafb;
+  }
+  
+  .Footer-home {
+    background-color: black;
+    color: white;
+    text-align: left;
+  }
+  
+  .button1-home {
+    background-color: transparent; 
+    color: white; 
+    border: 1px solid white;
+    padding: 15px 20px;
+    border-radius: 2px;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  }
+  
+  .button1-home:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  

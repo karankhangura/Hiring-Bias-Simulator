@@ -1,0 +1,137 @@
+.resumes .resumes-container {
+    background-color: #f2f2f2;
+  }
+
+.resumes h3{
+    font-size: 20px;
+}
+
+.resumes body{
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.resumes p{
+    margin: 18px 0px 0px 0px;
+}
+
+.resumes p, li{
+    font-size: 15px;
+    line-height: 1.75;
+    text-align: left;
+}
+
+.resumes ul{
+    list-style-type: disc;
+
+}
+
+.resumes hr{
+    border-color: #ae9d9d;
+    width: 50%;
+    margin-right: auto;
+    margin-left: 25%;
+}
+
+.resumes .background-image{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+    overflow: hidden;
+    opacity: 0.37;
+}
+.resumes .image-col p{
+    color: #303133;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.light-text p,li{
+    color: #777777;
+}
+
+.column-padding{
+    padding-left: 72px;
+}
+  .resumes-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .resumes-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .resumes-image-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+  }
+  
+  .resumes-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .resumes-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .resumes-title {
+    font-size: 32px;
+    margin: 0 0 10px 0;
+  }
+  
+  .resumes-subtitle {
+    font-size: 24px;
+    margin: 20px 0 10px 0;
+  }
+  
+  .resumes-text {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .resumes-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+text-align: center;
+color: #333;
+}
+
+.resumes-icon-container svg {
+margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+.resumes-row {
+flex-direction: column;
+}
+
+.resumes-column {
+width: 100%;
+margin: 10px 0;
+}
+
+.resumes-image-container {
+height: 200px;
+}
+}
+  

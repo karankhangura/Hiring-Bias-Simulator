@@ -1,0 +1,64 @@
+h5 {
+   color: black;
+}
+
+.img {
+    width:80%;
+    z-index: 0; 
+    opacity: 50%;
+}
+    
+.text-over-img {
+    position: relative;
+    color: white;
+    z-index: 1;
+    font-size: 1.2em;
+    margin-top: -20%;
+}
+
+.user-icon {
+    width: 5em;
+    background-color: blueviolet;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    padding: 7em;
+}
+
+.icon {
+    height: 7em;
+    width: 7em;
+    background-color: #0d6efd;
+    background-image: url(assets/user.svg);
+    background-position: center;
+    background-size: 3em;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+#banner-row {
+    background: black;
+}
+
+#banner {
+    opacity: 30%;
+    
+}
+
+footer {
+    color: white;
+    padding: 1em;
+    background-color: black;
+}
